@@ -1,0 +1,25 @@
+/* line 2, ../sass/main.sass */
+body .add-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+/* line 6, ../sass/main.sass */
+body .board {
+  background: orange;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  color: white;
+}
+/* line 12, ../sass/main.sass */
+body .note {
+  width: 250px;
+  font-family: cursive;
+  height: 250px;
+  background: yellow;
+  color: black;
+  box-shadow: 2px 2px 8px gray;
+  padding: 10px;
+  margin: 10px;
+}
