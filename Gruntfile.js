@@ -3,14 +3,14 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	// grunt.loadNpmTasks('grunt-reactify');
 	grunt.loadNpmTasks('grunt-react');
 	
 	grunt.initConfig({
 		react: {
 			single_file_output: {
 				files: {
-					'build/app.js': 'js/app.jsx'
+					'build/app.js': 'js/app.jsx',
+					'build/eg.js': 'js/eg.jsx',
 				}
 			}
 		},
